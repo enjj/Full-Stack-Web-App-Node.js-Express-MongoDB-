@@ -1,0 +1,29 @@
+{
+  "name": "Full-Stack-Web-App-Node.js-Express-MongoDB-",
+  "version": "1.0.0",
+  "description": "from no stuck to full stack :)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enjj/Full-Stack-Web-App-Node.js-Express-MongoDB-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enjj/Full-Stack-Web-App-Node.js-Express-MongoDB-/issues"
+  },
+  "homepage": "https://github.com/enjj/Full-Stack-Web-App-Node.js-Express-MongoDB-#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
