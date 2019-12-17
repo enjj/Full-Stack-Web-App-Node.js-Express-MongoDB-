@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({ limit: '10mb' , extended: false }))
 
 const indexRouter = require('./routers/index')
 const authorRouter = require('./routers/authors')
+const bookRouter = require('./routers/books')
 
 app.set('view engine', 'ejs');
 app.set('views',__dirname + '/views');
@@ -28,5 +29,6 @@ db.once('open',() => console.log('connected to mongoose'));
 
 app.use('/',indexRouter);
 app.use('/authors',authorRouter);
+app.use('/books',bookRouter);
 
 app.listen(process.env.PORT || 3000);
